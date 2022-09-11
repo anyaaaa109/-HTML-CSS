@@ -48,9 +48,13 @@ main h2{
   display: flex;
   justify-content: center;
 }
-.profile-image{
+.profile-image-box{
   width: 30%;
   margin-right: 10px;
+}
+.profile-image{
+  width: 100%;
+  border-radius: 10px;
 }
 .profile-info{
   background-color: #fff;
@@ -88,7 +92,7 @@ footer{
   .profile-box{
     display: block;
   }
-  .profile-image{
+  .profile-image-box{
     width: 100%;
   }
   .profile-info{
